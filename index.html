@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ScaleFlux Media | Digital Marketing Agency — India</title>
+<meta name="description" content="ScaleFlux Media — India's trusted digital marketing agency. Social media management, Meta & Google ads, Reels production, local SEO & Google Business optimization, and branding for businesses across India.">
+<meta name="keywords" content="digital marketing agency India, social media marketing agency, Instagram marketing agency, Meta ads agency, Google ads agency India, local SEO services, Google My Business optimization, branding agency, reels video production, ScaleFlux Media">
+<meta name="robots" content="index, follow">
+<meta name="author" content="ScaleFlux Media">
+<link rel="canonical" href="https://scalefluxmedia.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ScaleFlux Media | Digital Marketing Agency — India">
+<meta property="og:description" content="Social media, paid ads, reels, local SEO & branding for businesses across India that want real, measurable growth.">
+<meta property="og:image" content="logo-light.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ScaleFlux Media | Digital Marketing Agency — India">
+<meta name="twitter:description" content="Social media, paid ads, reels, local SEO & branding for businesses across India that want real, measurable growth.">
+<meta name="twitter:image" content="logo-light.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  "name": "ScaleFlux Media",
+  "description": "Digital marketing agency in India offering social media management, paid advertising, reels production, local SEO and branding for small and growing businesses.",
+  "areaServed": "India",
+  "url": "https://scalefluxmedia.com/",
+  "telephone": "+919760801196",
+  "priceRange": "$$"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+/* ============================
+   CSS CUSTOM PROPERTIES
+============================ */
+:root {
+  --primary: #0057FF;
+  --accent:  #00AAFF;
+  --glow:    rgba(0,87,255,0.45);
+  --glow2:   rgba(0,170,255,0.3);
+}
+
+[data-theme="dark"] {
+  --bg:          #04080F;
+  --bg2:         #070D1C;
+  --bg3:         #0B1228;
+  --card:        rgba(255,255,255,0.03);
+  --card-hover:  rgba(0,87,255,0.06);
+  --border:      rgba(0,87,255,0.18);
+  --border-h:    rgba(0,87,255,0.5);
+  --text:        #EEF2FF;
+  --muted:       #7B90BE;
+  --nav:         rgba(4,8,15,0.82);
+  --input-bg:    rgba(0,87,255,0.05);
+  --select-bg:   #0B1228;
+}
+
+[data-theme="light"] {
+  --bg:          #F0F6FF;
+  --bg2:         #E4EFFE;
+  --bg3:         #FFFFFF;
+  --card:        rgba(255,255,255,0.75);
+  --card-hover:  rgba(0,87,255,0.04);
+  --border:      rgba(0,87,255,0.15);
+  --border-h:    rgba(0,87,255,0.45);
+  --text:        #080F28;
+  --muted:       #4A6080;
+  --nav:         rgba(240,246,255,0.88);
+  --input-bg:    rgba(0,87,255,0.04);
+  --select-bg:   #FFFFFF;
+}
+
+/* ============================
+   RESET & BASE
+============================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);transition:background .4s ease,color .4s ease;overflow-x:hidden}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--primary),var(--accent));border-radius:3px}
+img{max-width:100%;display:block}
+a{text-decoration:none}
+
+/* ============================
+   NAVBAR
+============================ */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:18px 5%;display:flex;align-items:center;justify-content:space-between;
+  background:var(--nav);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border);transition:all .4s ease;
+}
+.nav-logo{display:flex;align-items:center;gap:14px}
+.nav-logo img{height:64px;object-fit:contain;transition:height .3s ease}
+nav.shrink .nav-logo img{height:50px}
+.brand-text{display:flex;flex-direction:column;line-height:1;font-family:'Exo 2',sans-serif;white-space:nowrap}
+.brand-text .bt-main{font-size:24px;font-weight:800;color:var(--text);letter-spacing:.01em}
+.brand-text .bt-main .bt-accent{color:var(--accent)}
+.brand-text .bt-sub{font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.38em;margin-top:5px}
+nav.shrink .brand-text .bt-main{font-size:20px}
+.nav-links{display:flex;gap:36px;list-style:none}
+.nav-links a{
+  color:var(--muted);font-weight:500;font-size:13px;
+  letter-spacing:.07em;text-transform:uppercase;transition:color .3s;position:relative;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-4px;left:0;width:0;height:1.5px;
+  background:linear-gradient(90deg,var(--primary),var(--accent));transition:width .3s;
+}
+.nav-links a:hover{color:var(--accent)}
+.nav-links a:hover::after{width:100%}
+.nav-right{display:flex;align-items:center;gap:14px}
+
+/* Theme Toggle */
+.toggle{
+  width:58px;height:30px;background:var(--card);border:1px solid var(--border);
+  border-radius:15px;cursor:pointer;display:flex;align-items:center;padding:4px;
+  position:relative;transition:all .3s;
+}
+.toggle-ball{
+  width:22px;height:22px;border-radius:50%;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  transition:transform .35s cubic-bezier(.4,0,.2,1);
+  display:flex;align-items:center;justify-content:center;font-size:11px;
+}
+[data-theme="light"] .toggle-ball{transform:translateX(28px)}
+.nav-cta{
+  padding:10px 22px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff;border-radius:7px;font-size:13px;font-weight:600;
+  letter-spacing:.05em;text-transform:uppercase;
+  transition:all .3s;box-shadow:0 0 22px var(--glow);
+}
+.nav-cta:hover{box-shadow:0 0 40px var(--glow);transform:translateY(-2px)}
+
+/* Hamburger */
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;z-index:1001;position:relative}
+.burger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:all .3s}
+.burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.active span:nth-child(2){opacity:0}
+.burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Mobile Menu */
+.mob-menu{
+  display:none;position:fixed;inset:0;background:var(--bg);z-index:999;
+  flex-direction:column;align-items:center;justify-content:center;gap:36px;
+}
+.mob-menu.open{display:flex}
+.mob-menu a{font-family:'Exo 2',sans-serif;font-size:30px;font-weight:800;color:var(--text);letter-spacing:.05em;text-transform:uppercase;transition:color .2s}
+.mob-menu a:hover{color:var(--accent)}
+.mob-close{position:absolute;top:24px;right:24px;font-size:26px;color:var(--muted);background:none;border:none;cursor:pointer}
+
+/* ============================
+   HERO
+============================ */
+#hero{
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;padding:130px 5% 100px;
+}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg .glow1{
+  position:absolute;width:900px;height:900px;top:-250px;right:-200px;
+  background:radial-gradient(ellipse at center,rgba(0,87,255,.13) 0%,transparent 65%);
+  animation:pulsate 5s ease-in-out infinite;
+}
+.hero-bg .glow2{
+  position:absolute;width:700px;height:700px;bottom:-150px;left:-150px;
+  background:radial-gradient(ellipse at center,rgba(0,170,255,.09) 0%,transparent 65%);
+  animation:pulsate 6s ease-in-out infinite reverse;
+}
+@keyframes pulsate{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.12);opacity:.6}}
+
+.grid-bg{
+  position:absolute;inset:0;
+  background-image:linear-gradient(rgba(0,87,255,.04) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(0,87,255,.04) 1px,transparent 1px);
+  background-size:60px 60px;
+}
+[data-theme="light"] .grid-bg{
+  background-image:linear-gradient(rgba(0,87,255,.07) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(0,87,255,.07) 1px,transparent 1px);
+}
+#pcv{position:absolute;inset:0;z-index:1}
+
+.hero-inner{position:relative;z-index:2;text-align:center;max-width:920px;margin:0 auto}
+
+.hero-float{
+  position:absolute;z-index:2;display:flex;align-items:center;gap:11px;
+  padding:10px 20px 10px 10px;border-radius:30px;
+  background:linear-gradient(rgba(10,15,30,.65),rgba(10,15,30,.65)) padding-box,
+             linear-gradient(120deg,rgba(0,170,255,.55),rgba(0,87,255,.15)) border-box;
+  border:1px solid transparent;backdrop-filter:blur(12px);
+  font-family:'Exo 2',sans-serif;font-size:12.5px;font-weight:700;color:var(--text);
+  box-shadow:0 10px 34px rgba(0,87,255,.18);animation:heroFloat 5s ease-in-out infinite;
+}
+.hero-float .hf-ic{
+  width:30px;height:30px;border-radius:50%;flex-shrink:0;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;color:#fff;font-size:12.5px;
+  box-shadow:0 0 16px rgba(0,170,255,.55);
+}
+[data-theme="light"] .hero-float{
+  background:linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75)) padding-box,
+             linear-gradient(120deg,rgba(0,87,255,.45),rgba(0,170,255,.15)) border-box;
+}
+.hf-1{top:22%;left:6%;animation-delay:0s}
+.hf-2{top:18%;right:6%;animation-delay:1.2s}
+.hf-3{bottom:14%;left:9%;animation-delay:2.4s}
+@keyframes heroFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@media(max-width:1100px){.hero-float{display:none}}
+
+.badge{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:9px 20px;background:rgba(0,87,255,.09);
+  border:1px solid rgba(0,87,255,.3);border-radius:50px;
+  font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--accent);margin-bottom:30px;backdrop-filter:blur(12px);
+}
+.badge .dot{position:relative;width:7px;height:7px;background:var(--accent);border-radius:50%;animation:blink 1.6s infinite}
+.badge .dot::before{
+  content:'';position:absolute;inset:-5px;border-radius:50%;
+  border:1.4px solid var(--accent);animation:pingRing 1.8s ease-out infinite;
+}
+@keyframes pingRing{0%{transform:scale(.5);opacity:.9}100%{transform:scale(2.4);opacity:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+
+.h1{
+  font-family:'Exo 2',sans-serif;
+  font-size:clamp(44px,7.5vw,88px);font-weight:900;
+  line-height:1.02;letter-spacing:-.02em;margin-bottom:26px;
+}
+.h1 .l1{display:block;color:var(--text)}
+.h1 .gr{
+  display:block;
+  background:linear-gradient(110deg,#0057FF 0%,#00AAFF 25%,#00DDFF 50%,#00AAFF 75%,#0057FF 100%);
+  background-size:250% auto;
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  animation:grShift 6s ease-in-out infinite;
+}
+@keyframes grShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.hero-p{
+  font-size:clamp(16px,2vw,19px);color:var(--muted);
+  max-width:580px;margin:0 auto 48px;line-height:1.75;
+}
+.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+.btn1{
+  padding:16px 38px;background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff;border-radius:9px;font-size:15px;font-weight:600;letter-spacing:.04em;
+  display:flex;align-items:center;gap:10px;position:relative;overflow:hidden;
+  box-shadow:0 0 32px var(--glow);transition:all .3s;
+}
+.btn1::after{
+  content:'';position:absolute;top:0;left:-60%;width:45%;height:100%;
+  background:linear-gradient(120deg,transparent,rgba(255,255,255,.55),transparent);
+  transform:skewX(-20deg);animation:btnShine 4s ease-in-out infinite;
+}
+@keyframes btnShine{0%{left:-60%}28%{left:130%}100%{left:130%}}
+.btn1:hover{box-shadow:0 0 55px var(--glow);transform:translateY(-3px)}
+
+.btn2{
+  padding:16px 38px;background:transparent;color:var(--text);
+  border:1px solid var(--border);border-radius:9px;font-size:15px;font-weight:600;
+  display:flex;align-items:center;gap:10px;backdrop-filter:blur(10px);transition:all .3s;
+}
+.btn2:hover{border-color:var(--accent);color:var(--accent);box-shadow:0 0 22px var(--glow2);transform:translateY(-3px)}
+
+.scroll-ind{
+  position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  color:var(--muted);font-size:10px;letter-spacing:.14em;text-transform:uppercase;z-index:2;
+}
+.scroll-line{
+  width:1px;height:52px;
+  background:linear-gradient(to bottom,var(--accent),transparent);
+  animation:sline 2s ease-in-out infinite;
+}
+@keyframes sline{0%,100%{opacity:.3;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.2)}}
+
+/* ============================
+   STATS BAR
+============================ */
+.stats-bar{
+  background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  padding:48px 5%;
+}
+.stats-grid{
+  max-width:1100px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);
+}
+.stat{text-align:center;padding:20px;border-right:1px solid var(--border)}
+.stat:last-child{border-right:none}
+.stat-n{
+  font-family:'Exo 2',sans-serif;font-size:48px;font-weight:900;line-height:1;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:8px;
+}
+.stat-l{font-size:13px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;font-weight:500}
+
+/* ============================
+   SHARED SECTION STYLES
+============================ */
+section{padding:104px 5%}
+.sec-label{
+  display:inline-block;font-size:11px;font-weight:700;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;
+}
+.sec-title{
+  font-family:'Exo 2',sans-serif;font-size:clamp(30px,4vw,54px);
+  font-weight:800;line-height:1.08;letter-spacing:-.02em;margin-bottom:18px;
+}
+.sec-sub{font-size:16px;color:var(--muted);max-width:520px;line-height:1.75}
+.sec-hd{margin-bottom:64px}
+
+/* ============================
+   SERVICES
+============================ */
+#services{background:var(--bg2)}
+.sv-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.sv{
+  background:var(--card);border:1px solid var(--border);border-radius:18px;
+  padding:36px 30px;position:relative;overflow:hidden;backdrop-filter:blur(12px);
+  transition:all .4s ease;
+}
+.sv::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--primary),var(--accent),transparent);
+  opacity:0;transition:opacity .4s;
+}
+.sv::after{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 50% -10%,rgba(0,87,255,.07),transparent 55%);
+  opacity:0;transition:opacity .4s;
+}
+.sv:hover{border-color:var(--border-h);transform:translateY(-7px);box-shadow:0 24px 70px rgba(0,87,255,.14)}
+.sv:hover::before,.sv:hover::after{opacity:1}
+.sv-icon{
+  width:58px;height:58px;border-radius:15px;
+  background:linear-gradient(135deg,rgba(0,87,255,.15),rgba(0,170,255,.1));
+  border:1px solid rgba(0,87,255,.28);
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;color:var(--accent);margin-bottom:24px;
+  position:relative;z-index:1;transition:all .3s;
+}
+.sv:hover .sv-icon{box-shadow:0 0 24px var(--glow)}
+.sv-name{font-family:'Exo 2',sans-serif;font-size:19px;font-weight:700;margin-bottom:12px;position:relative;z-index:1}
+.sv-desc{font-size:14px;color:var(--muted);line-height:1.72;position:relative;z-index:1}
+
+/* ============================
+   ABOUT
+============================ */
+#about{background:var(--bg)}
+.about-wrap{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.about-photo{width:100%;height:260px;object-fit:cover;border-radius:20px;margin-bottom:24px;border:1px solid var(--border);display:block}
+.about-card{
+  background:var(--card);border:1px solid var(--border);border-radius:22px;
+  padding:44px;backdrop-filter:blur(20px);position:relative;overflow:hidden;
+}
+.about-card::before{
+  content:'';position:absolute;top:-60%;right:-40%;width:350px;height:350px;
+  background:radial-gradient(circle,rgba(0,87,255,.09),transparent 60%);pointer-events:none;
+}
+.about-logo{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:36px}
+.about-logo img{height:88px;object-fit:contain}
+.about-logo .brand-text .bt-main{font-size:32px}
+.about-logo .brand-text .bt-sub{font-size:12px}
+.feat-list{list-style:none;display:flex;flex-direction:column;gap:16px}
+.feat-list li{display:flex;align-items:center;gap:14px;font-size:15px}
+.ck{
+  width:30px;height:30px;flex-shrink:0;border-radius:9px;
+  background:linear-gradient(135deg,rgba(0,87,255,.2),rgba(0,170,255,.12));
+  border:1px solid rgba(0,87,255,.35);
+  display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--accent);
+}
+.float-pill{
+  position:absolute;bottom:-18px;right:-18px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff;padding:18px 22px;border-radius:16px;text-align:center;
+  box-shadow:0 12px 44px var(--glow);
+}
+.float-pill .fn{font-family:'Exo 2',sans-serif;font-size:30px;font-weight:900;display:block;line-height:1}
+.float-pill .ft{font-size:11px;opacity:.85;letter-spacing:.05em}
+.about-txt p{color:var(--muted);font-size:15px;line-height:1.82;margin-bottom:22px}
+
+/* ============================
+   WHY US
+============================ */
+#why{background:var(--bg2)}
+.why-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.wc{
+  background:var(--card);border:1px solid var(--border);border-radius:16px;
+  padding:32px 24px;text-align:center;backdrop-filter:blur(10px);transition:all .35s;
+}
+.wc:hover{border-color:var(--border-h);transform:translateY(-5px);box-shadow:0 16px 50px rgba(0,87,255,.12)}
+.wi{
+  font-size:34px;margin-bottom:16px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.wt{font-family:'Exo 2',sans-serif;font-size:17px;font-weight:700;margin-bottom:10px}
+.wd{font-size:13px;color:var(--muted);line-height:1.65}
+
+/* ============================
+   CURSOR GLOW (premium ambient)
+============================ */
+.cursor-glow{
+  position:fixed;top:0;left:0;width:520px;height:520px;pointer-events:none;z-index:1;
+  background:radial-gradient(circle,rgba(0,170,255,.09) 0%,transparent 70%);
+  transform:translate(-50%,-50%);will-change:transform;transition:opacity .3s;opacity:0;
+}
+[data-theme="light"] .cursor-glow{background:radial-gradient(circle,rgba(0,87,255,.06) 0%,transparent 70%)}
+
+.cursor-dot{position:fixed;top:0;left:0;width:7px;height:7px;border-radius:50%;background:var(--accent);pointer-events:none;z-index:9999;transform:translate(-50%,-50%);opacity:0;transition:opacity .3s}
+.cursor-ring{position:fixed;top:0;left:0;width:34px;height:34px;border-radius:50%;border:1.4px solid var(--accent);pointer-events:none;z-index:9998;transform:translate(-50%,-50%);opacity:0;transition:opacity .3s,width .25s ease,height .25s ease,background .25s ease}
+.cursor-ring.hv{width:56px;height:56px;background:rgba(0,170,255,.10)}
+@media (hover:none), (pointer:coarse){
+  .cursor-dot,.cursor-ring,.cursor-glow{display:none}
+}
+
+/* ============================
+   INDUSTRIES MARQUEE
+============================ */
+.marquee-wrap{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:38px 0;overflow:hidden;position:relative}
+.marquee-wrap::before,.marquee-wrap::after{
+  content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none;
+}
+.marquee-wrap::before{left:0;background:linear-gradient(90deg,var(--bg2),transparent)}
+.marquee-wrap::after{right:0;background:linear-gradient(270deg,var(--bg2),transparent)}
+.marquee-label{text-align:center;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
+.marquee-track{display:flex;gap:56px;width:max-content;animation:scroll-x 32s linear infinite}
+.marquee-wrap:hover .marquee-track{animation-play-state:paused}
+.marquee-item{display:flex;align-items:center;gap:12px;font-family:'Exo 2',sans-serif;font-weight:700;font-size:16px;color:var(--muted);white-space:nowrap;opacity:.8}
+.marquee-item i{color:var(--accent);font-size:20px}
+@keyframes scroll-x{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ============================
+   RESULTS / GRAPH SECTION
+============================ */
+#results{background:var(--bg)}
+.res-wrap{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.res-card{
+  background:var(--card);border:1px solid var(--border);border-radius:22px;
+  padding:36px;backdrop-filter:blur(20px);position:relative;overflow:hidden;
+}
+.res-chip{
+  position:absolute;top:24px;right:24px;background:rgba(0,87,255,.1);border:1px solid rgba(0,87,255,.3);
+  color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:6px 14px;border-radius:50px;
+}
+.res-graph-line{stroke-dasharray:900;stroke-dashoffset:900;transition:stroke-dashoffset 2s cubic-bezier(.4,0,.2,1)}
+.res-card.vis .res-graph-line{stroke-dashoffset:0}
+.res-graph-fill{opacity:0;transition:opacity 1.6s ease 1s}
+.res-card.vis .res-graph-fill{opacity:1}
+.res-dot{opacity:0;transform:scale(0);transition:all .4s ease}
+.res-card.vis .res-dot{opacity:1;transform:scale(1)}
+.res-list{display:flex;flex-direction:column;gap:26px}
+.res-item{display:flex;gap:18px;align-items:flex-start}
+.res-num{
+  font-family:'Exo 2',sans-serif;font-size:28px;font-weight:900;flex-shrink:0;width:74px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.res-item h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.res-item p{font-size:13.5px;color:var(--muted);line-height:1.65}
+.res-grid-line{stroke:var(--border);stroke-width:1}
+.res-axis-text{fill:var(--muted);font-size:12px;font-family:'Inter',sans-serif}
+.res-dot-fill{fill:var(--bg3);stroke:var(--accent);stroke-width:3}
+.res-callout-bg{fill:var(--primary)}
+.res-callout-text{fill:#fff;font-weight:700;font-size:16px;font-family:'Exo 2',sans-serif}
+.res-callout-sub{fill:rgba(255,255,255,.85);font-size:10px;font-family:'Inter',sans-serif;letter-spacing:.05em}
+
+/* ============================
+   PORTFOLIO / SAMPLE WORK
+============================ */
+#portfolio{background:var(--bg2)}
+.pf-note{
+  max-width:1200px;margin:0 auto 40px;padding:14px 20px;border-radius:12px;
+  background:rgba(0,87,255,.06);border:1px solid var(--border);
+  font-size:13px;color:var(--muted);display:flex;gap:10px;align-items:center;
+}
+.pf-note i{color:var(--accent)}
+.pf-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.pf-card{perspective:1400px;height:420px}
+.pf-flip{position:relative;width:100%;height:100%;transition:transform .7s cubic-bezier(.4,.2,.2,1);transform-style:preserve-3d}
+.pf-card:hover .pf-flip,.pf-card.flipped .pf-flip{transform:rotateY(180deg)}
+.pf-face{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  background:var(--card);border:1px solid var(--border);border-radius:20px;
+  backdrop-filter:blur(14px);overflow:hidden;display:flex;flex-direction:column;
+}
+.pf-card:hover .pf-face{border-color:var(--border-h)}
+.pf-front .pf-media{position:relative;width:100%;height:230px;overflow:hidden;flex-shrink:0}
+.pf-front .pf-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+.pf-card:hover .pf-front .pf-media img{transform:scale(1.08)}
+.pf-front .pf-media svg{width:100%;height:100%;display:block}
+.pf-front .pf-body{padding:18px 22px;text-align:left}
+.pf-back{transform:rotateY(180deg);align-items:center;justify-content:center;text-align:center;padding:32px}
+.pf-back .pf-stat{font-family:'Exo 2',sans-serif;font-size:34px;font-weight:900;background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:10px}
+.pf-back p{font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:18px}
+.pf-back .pf-flip-hint{font-size:11px;color:var(--accent);font-weight:600;letter-spacing:.04em;display:flex;align-items:center;gap:6px}
+.pf-tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.pf-card h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.pf-card p{font-size:13px;color:var(--muted);line-height:1.6}
+
+/* ============================
+   TESTIMONIALS
+============================ */
+#testimonials{background:var(--bg)}
+.tm-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.tm-card{
+  background:var(--card);border:1px solid var(--border);border-radius:18px;padding:30px;
+  backdrop-filter:blur(12px);transition:all .35s ease;position:relative;
+}
+.tm-card:hover{border-color:var(--border-h);transform:translateY(-5px)}
+.tm-stars{color:#FFB020;font-size:13px;margin-bottom:16px;letter-spacing:2px}
+.tm-txt{font-size:14px;color:var(--text);line-height:1.75;margin-bottom:22px;font-style:italic}
+.tm-who{display:flex;align-items:center;gap:12px}
+.tm-avatar{
+  width:44px;height:44px;border-radius:50%;flex-shrink:0;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:14px;
+  font-family:'Exo 2',sans-serif;
+}
+.tm-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tm-who h5{font-size:14px;font-weight:700}
+.tm-who span{font-size:12px;color:var(--muted)}
+.tm-placeholder-badge{
+  position:absolute;top:16px;right:16px;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);opacity:.55;
+}
+
+/* ============================
+   BLOG / INSIGHTS
+============================ */
+#blog{background:var(--bg2)}
+.blog-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.bl-card{
+  background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;
+  backdrop-filter:blur(12px);transition:all .35s ease;cursor:pointer;display:flex;flex-direction:column;
+}
+.bl-card:hover{border-color:var(--border-h);transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,87,255,.12)}
+.bl-cover{height:150px;position:relative;overflow:hidden}
+.bl-cover svg{width:100%;height:100%}
+.bl-cover img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.bl-card:hover .bl-cover img{transform:scale(1.06)}
+.bl-cover-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.05) 40%,rgba(0,0,0,.45) 100%);pointer-events:none}
+.bl-body{padding:24px;flex:1;display:flex;flex-direction:column}
+.bl-cat{font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.bl-card h4{font-size:16.5px;font-weight:700;line-height:1.4;margin-bottom:10px}
+.bl-card p{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:18px;flex:1}
+.bl-read{font-size:12.5px;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:6px}
+.bl-read i{transition:transform .3s}
+.bl-card:hover .bl-read i{transform:translateX(4px)}
+
+/* Blog Modal */
+.bl-modal-bg{
+  position:fixed;inset:0;background:rgba(0,4,12,.75);backdrop-filter:blur(6px);z-index:2000;
+  display:none;align-items:flex-start;justify-content:center;padding:60px 20px;overflow-y:auto;
+}
+.bl-modal-bg.open{display:flex}
+.bl-modal{
+  background:var(--bg3);border:1px solid var(--border);border-radius:22px;max-width:720px;width:100%;
+  padding:44px;position:relative;animation:modalIn .35s ease;
+}
+@keyframes modalIn{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+.bl-modal-close{
+  position:absolute;top:20px;right:20px;width:38px;height:38px;border-radius:50%;
+  background:var(--card);border:1px solid var(--border);color:var(--text);font-size:16px;
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+}
+.bl-modal .bl-cat{margin-bottom:14px}
+.bl-modal h2{font-family:'Exo 2',sans-serif;font-size:clamp(22px,3vw,30px);font-weight:800;margin-bottom:18px;line-height:1.25}
+.bl-modal-content p{font-size:15px;color:var(--muted);line-height:1.85;margin-bottom:18px}
+.bl-modal-content h3{font-size:17px;font-weight:700;color:var(--text);margin:26px 0 12px}
+.bl-modal-content ul{margin:0 0 18px 20px;color:var(--muted);font-size:14.5px;line-height:1.9}
+
+/* ============================
+   CONTACT
+============================ */
+#contact{background:var(--bg)}
+.ct-wrap{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.15fr;gap:64px;align-items:start}
+.ct-info{display:flex;flex-direction:column;gap:26px}
+.ci{display:flex;gap:18px;align-items:flex-start}
+.ci-icon{
+  width:50px;height:50px;flex-shrink:0;border-radius:13px;
+  background:linear-gradient(135deg,rgba(0,87,255,.15),rgba(0,170,255,.1));
+  border:1px solid rgba(0,87,255,.28);
+  display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--accent);
+}
+.ci-d h4{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.ci-d a,.ci-d p{font-size:15px;color:var(--text);line-height:1.6;transition:color .2s}
+.ci-d a:hover{color:var(--accent)}
+.soc{display:flex;gap:11px;margin-top:6px}
+.sb{
+  width:44px;height:44px;background:var(--card);border:1px solid var(--border);border-radius:10px;
+  display:flex;align-items:center;justify-content:center;font-size:17px;
+  color:var(--muted);transition:all .3s;backdrop-filter:blur(10px);
+}
+.sb:hover{background:linear-gradient(135deg,var(--primary),var(--accent));border-color:transparent;color:#fff;box-shadow:0 0 22px var(--glow);transform:translateY(-2px)}
+.cf{
+  background:var(--card);border:1px solid var(--border);border-radius:22px;
+  padding:42px;backdrop-filter:blur(20px);
+}
+.cf h3{font-family:'Exo 2',sans-serif;font-size:22px;font-weight:700;margin-bottom:28px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.fg{display:flex;flex-direction:column;gap:7px;margin-bottom:14px}
+.fg label{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.fg input,.fg textarea,.fg select{
+  background:var(--input-bg);border:1px solid var(--border);border-radius:10px;
+  padding:14px 16px;color:var(--text);font-family:'Inter',sans-serif;font-size:14px;
+  transition:all .3s;outline:none;width:100%;
+}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(0,87,255,.1)}
+.fg textarea{height:115px;resize:vertical}
+.fg select{background:var(--select-bg)}
+.fg select option{background:var(--select-bg)}
+.fsub{
+  width:100%;padding:16px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff;border:none;border-radius:10px;
+  font-family:'Inter',sans-serif;font-size:15px;font-weight:600;cursor:pointer;
+  letter-spacing:.05em;box-shadow:0 0 28px var(--glow);transition:all .3s;
+}
+.fsub:hover{box-shadow:0 0 50px var(--glow);transform:translateY(-2px)}
+
+/* ============================
+   FOOTER
+============================ */
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:64px 5% 32px}
+.ft-inner{max-width:1200px;margin:0 auto}
+.ft-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:60px;padding-bottom:48px;border-bottom:1px solid var(--border);margin-bottom:32px}
+.ft-logo-row{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.ft-brand img{height:66px;object-fit:contain}
+.ft-logo-row .brand-text .bt-main{font-size:26px}
+.ft-logo-row .brand-text .bt-sub{font-size:10px}
+.ft-brand p{font-size:14px;color:var(--muted);line-height:1.72;max-width:290px;margin-bottom:22px}
+.ft-col h4{font-family:'Exo 2',sans-serif;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+.ft-links{list-style:none;display:flex;flex-direction:column;gap:11px}
+.ft-links a{font-size:14px;color:var(--muted);transition:color .2s}
+.ft-links a:hover{color:var(--accent)}
+.ft-bot{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted)}
+
+/* ============================
+   WHATSAPP FAB
+============================ */
+.wa-fab{
+  position:fixed;bottom:30px;right:30px;width:58px;height:58px;
+  background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:26px;color:#fff;z-index:999;
+  box-shadow:0 4px 22px rgba(37,211,102,.45);transition:all .3s;
+}
+.wa-fab:hover{transform:scale(1.12);box-shadow:0 6px 34px rgba(37,211,102,.6)}
+
+/* ============================
+   ANIMATIONS
+============================ */
+.fiu{opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease}
+.fiu.vis{opacity:1;transform:translateY(0)}
+
+/* ============================
+   RESPONSIVE
+============================ */
+@media(max-width:1060px){
+  .sv-grid{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .about-wrap{grid-template-columns:1fr;gap:48px}
+  .about-photo{height:200px}
+  .ct-wrap{grid-template-columns:1fr}
+  .ft-top{grid-template-columns:1fr 1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .res-wrap{grid-template-columns:1fr;gap:44px}
+  .pf-grid{grid-template-columns:1fr 1fr}
+  .tm-grid{grid-template-columns:1fr 1fr}
+  .blog-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:720px){
+  .nav-links,.nav-cta{display:none}
+  .burger{display:flex}
+  .sv-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .fr{grid-template-columns:1fr}
+  .ft-top{grid-template-columns:1fr}
+  .ft-bot{flex-direction:column;gap:10px;text-align:center}
+  .stat{border-right:none;border-bottom:1px solid var(--border)}
+  .stat:last-child{border-bottom:none}
+  nav{padding:14px 5%}
+  .nav-logo img{height:48px}
+  .brand-text .bt-main{font-size:19px}
+  .brand-text .bt-sub{font-size:8px;letter-spacing:.3em}
+  .pf-grid{grid-template-columns:1fr}
+  .tm-grid{grid-template-columns:1fr}
+  .blog-grid{grid-template-columns:1fr}
+  .bl-modal{padding:30px 22px}
+  .cursor-glow{display:none}
+  .cursor-dot,.cursor-ring{display:none}
+  .about-logo{gap:12px}
+  .about-logo img{height:64px}
+  .about-logo .brand-text .bt-main{font-size:24px}
+  .about-logo .brand-text .bt-sub{font-size:10px}
+  .ft-logo-row img{height:54px}
+  .ft-logo-row .brand-text .bt-main{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- NAVBAR -->
+<nav id="nav">
+  <div class="nav-logo">
+    <img id="nav-logo" src="logo-dark-icon.png" alt="ScaleFlux Media icon">
+    <div class="brand-text">
+      <span class="bt-main">Scale<span class="bt-accent">Flux</span></span>
+      <span class="bt-sub">MEDIA</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#portfolio">Work</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="toggle" id="themeBtn" title="Toggle Light / Dark">
+      <div class="toggle-ball">
+        <span id="tIcon">🌙</span>
+      </div>
+    </div>
+    <a href="#contact" class="nav-cta">Get Started</a>
+    <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mob-menu" id="mobMenu">
+  <button class="mob-close" id="mobClose">✕</button>
+  <a href="#hero"     onclick="closeMob()">Home</a>
+  <a href="#services" onclick="closeMob()">Services</a>
+  <a href="#about"    onclick="closeMob()">About</a>
+  <a href="#why"      onclick="closeMob()">Why Us</a>
+  <a href="#portfolio" onclick="closeMob()">Work</a>
+  <a href="#blog"      onclick="closeMob()">Blog</a>
+  <a href="#contact"  onclick="closeMob()">Contact</a>
+</div>
+
+<!-- =====================
+     HERO
+===================== -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="glow1"></div>
+    <div class="glow2"></div>
+    <div class="grid-bg"></div>
+  </div>
+  <canvas id="pcv"></canvas>
+
+  <div class="hero-float hf-1 fiu"><span class="hf-ic"><i class="fas fa-star"></i></span> <span>4.9/5 Client Rating</span></div>
+  <div class="hero-float hf-2 fiu"><span class="hf-ic"><i class="fas fa-arrow-trend-up"></i></span> <span>5x Avg. ROI</span></div>
+  <div class="hero-float hf-3 fiu"><span class="hf-ic"><i class="fas fa-bolt"></i></span> <span>100+ Campaigns Run</span></div>
+
+  <div class="hero-inner">
+    <div class="badge"><span class="dot"></span> Digital Growth Partner — India</div>
+    <h1 class="h1">
+      <span class="l1">We Scale Your</span>
+      <span class="gr">Digital Presence</span>
+    </h1>
+    <p class="hero-p">
+      From scroll-stopping content to high-ROI ad campaigns —
+      ScaleFlux Media helps businesses grow online with strategy,
+      creativity &amp; measurable results.
+    </p>
+    <div class="hero-btns">
+      <a href="https://wa.me/919760801196" class="btn1" target="_blank">
+        <i class="fab fa-whatsapp"></i> Let's Talk
+      </a>
+      <a href="#services" class="btn2">
+        Our Services <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-ind">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- =====================
+     STATS BAR
+===================== -->
+<div class="stats-bar">
+  <div class="stats-grid">
+    <div class="stat fiu">
+      <div class="stat-n" data-t="50" data-s="+">0+</div>
+      <div class="stat-l">Clients Served</div>
+    </div>
+    <div class="stat fiu">
+      <div class="stat-n" data-t="100" data-s="+">0+</div>
+      <div class="stat-l">Campaigns Run</div>
+    </div>
+    <div class="stat fiu">
+      <div class="stat-n" data-t="5" data-s="x">0x</div>
+      <div class="stat-l">Avg. ROI</div>
+    </div>
+    <div class="stat fiu">
+      <div class="stat-n" data-t="3" data-s="+">0+</div>
+      <div class="stat-l">Years Experience</div>
+    </div>
+  </div>
+</div>
+
+<!-- =====================
+     INDUSTRIES MARQUEE
+===================== -->
+<div class="marquee-wrap">
+  <div class="marquee-label">Industries We Grow</div>
+  <div class="marquee-track" id="marqueeTrack">
+    <div class="marquee-item"><i class="fas fa-utensils"></i> Restaurants &amp; Cafes</div>
+    <div class="marquee-item"><i class="fas fa-store"></i> Retail &amp; Boutiques</div>
+    <div class="marquee-item"><i class="fas fa-spa"></i> Salons &amp; Spas</div>
+    <div class="marquee-item"><i class="fas fa-dumbbell"></i> Gyms &amp; Fitness</div>
+    <div class="marquee-item"><i class="fas fa-home"></i> Real Estate</div>
+    <div class="marquee-item"><i class="fas fa-graduation-cap"></i> Coaching &amp; Education</div>
+    <div class="marquee-item"><i class="fas fa-tooth"></i> Clinics &amp; Healthcare</div>
+    <div class="marquee-item"><i class="fas fa-ring"></i> Jewellery &amp; Fashion</div>
+    <div class="marquee-item"><i class="fas fa-utensils"></i> Restaurants &amp; Cafes</div>
+    <div class="marquee-item"><i class="fas fa-store"></i> Retail &amp; Boutiques</div>
+    <div class="marquee-item"><i class="fas fa-spa"></i> Salons &amp; Spas</div>
+    <div class="marquee-item"><i class="fas fa-dumbbell"></i> Gyms &amp; Fitness</div>
+    <div class="marquee-item"><i class="fas fa-home"></i> Real Estate</div>
+    <div class="marquee-item"><i class="fas fa-graduation-cap"></i> Coaching &amp; Education</div>
+    <div class="marquee-item"><i class="fas fa-tooth"></i> Clinics &amp; Healthcare</div>
+    <div class="marquee-item"><i class="fas fa-ring"></i> Jewellery &amp; Fashion</div>
+  </div>
+</div>
+
+<!-- =====================
+     SERVICES
+===================== -->
+<section id="services">
+  <div style="max-width:1200px;margin:0 auto">
+    <div class="sec-hd fiu">
+      <span class="sec-label">What We Do</span>
+      <h2 class="sec-title">Services Built for<br>Real Business Growth</h2>
+      <p class="sec-sub">We combine creative content with data-driven strategy to deliver results that actually move the needle.</p>
+    </div>
+    <div class="sv-grid">
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-chart-line"></i></div>
+        <h3 class="sv-name">Social Media Management</h3>
+        <p class="sv-desc">Full management of Instagram, Facebook & more — content calendar, daily posting, engagement &amp; growth strategy.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-bullhorn"></i></div>
+        <h3 class="sv-name">Paid Advertising</h3>
+        <p class="sv-desc">Performance-driven Meta &amp; Google Ads campaigns that bring qualified leads and maximize your ad spend ROI.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-film"></i></div>
+        <h3 class="sv-name">Reels &amp; Video Content</h3>
+        <p class="sv-desc">High-impact short-form video — scripted, edited, and hook-optimized for maximum organic reach &amp; virality.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-pen-nib"></i></div>
+        <h3 class="sv-name">Content Creation</h3>
+        <p class="sv-desc">Scroll-stopping visuals, captions, and brand storytelling that build authority and drive real action.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-search-location"></i></div>
+        <h3 class="sv-name">SEO &amp; Google My Business</h3>
+        <p class="sv-desc">Rank higher on local Google searches &amp; Maps. Complete GMB optimization to bring customers to your door.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-palette"></i></div>
+        <h3 class="sv-name">Brand Identity &amp; Design</h3>
+        <p class="sv-desc">Logo, brand guidelines &amp; visual identity that make your business look premium, consistent, and unforgettable.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fab fa-whatsapp"></i></div>
+        <h3 class="sv-name">WhatsApp Marketing</h3>
+        <p class="sv-desc">Broadcast campaigns, catalog setup &amp; automated replies that turn conversations into confirmed orders.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-envelope-open-text"></i></div>
+        <h3 class="sv-name">Email &amp; SMS Marketing</h3>
+        <p class="sv-desc">Automated campaigns that nurture leads and bring past customers back — without extra ad spend.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-user-tie"></i></div>
+        <h3 class="sv-name">Influencer Collaborations</h3>
+        <p class="sv-desc">Local &amp; niche influencer partnerships that build trust and put your brand in front of new audiences fast.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3 class="sv-name">Website Design &amp; Landing Pages</h3>
+        <p class="sv-desc">Fast, mobile-first websites &amp; landing pages built to convert visitors into leads and customers.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-star-half-stroke"></i></div>
+        <h3 class="sv-name">Online Reputation Management</h3>
+        <p class="sv-desc">Review generation &amp; response strategy that builds trust and protects your brand's online image.</p>
+      </div>
+      <div class="sv fiu">
+        <div class="sv-icon"><i class="fas fa-chart-pie"></i></div>
+        <h3 class="sv-name">Analytics &amp; Reporting</h3>
+        <p class="sv-desc">Clear monthly reports on what's working — real numbers, no jargon, so you always know your ROI.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     ABOUT
+===================== -->
+<section id="about">
+  <div class="about-wrap">
+    <div class="fiu" style="position:relative;padding-bottom:28px;padding-right:28px">
+      <img class="about-photo" src="about-photo.png" alt="ScaleFlux Media team at work" onerror="this.style.display='none'">
+      <div class="about-card">
+        <div class="about-logo">
+          <img id="about-logo" src="logo-dark-icon.png" alt="ScaleFlux Media icon">
+          <div class="brand-text">
+            <span class="bt-main">Scale<span class="bt-accent">Flux</span></span>
+            <span class="bt-sub">MEDIA</span>
+          </div>
+        </div>
+        <ul class="feat-list">
+          <li><span class="ck"><i class="fas fa-check"></i></span> Results-focused, not just impressions</li>
+          <li><span class="ck"><i class="fas fa-check"></i></span> Personalized strategy for every client</li>
+          <li><span class="ck"><i class="fas fa-check"></i></span> Transparent reporting &amp; communication</li>
+          <li><span class="ck"><i class="fas fa-check"></i></span> India's trusted digital growth partner</li>
+        </ul>
+      </div>
+      <div class="float-pill">
+        <span class="fn">100%</span>
+        <span class="ft">Dedicated</span>
+      </div>
+    </div>
+    <div class="about-txt fiu">
+      <span class="sec-label">Who We Are</span>
+      <h2 class="sec-title">Your Growth is<br>Our Only Business</h2>
+      <p>ScaleFlux Media is a performance-driven digital marketing agency helping businesses across India — from local shops to growing brands — build a powerful digital presence that converts followers into customers.</p>
+      <p>We don't believe in copy-paste strategies. Every client gets a custom roadmap built around their goals, audience, and budget. Whether you're just starting out or looking to scale aggressively, we have the tools, creativity, and expertise to get you there.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:32px">
+        <a href="https://wa.me/919760801196" class="btn1" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+        <a href="#services" class="btn2">View Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     WHY US
+===================== -->
+<section id="why">
+  <div style="max-width:1200px;margin:0 auto">
+    <div class="sec-hd fiu" style="text-align:center">
+      <span class="sec-label">Why ScaleFlux</span>
+      <h2 class="sec-title">What Sets Us Apart</h2>
+    </div>
+    <div class="why-grid">
+      <div class="wc fiu">
+        <div class="wi"><i class="fas fa-rocket"></i></div>
+        <h3 class="wt">Fast Execution</h3>
+        <p class="wd">We move at the speed of social media. Quick turnarounds without compromising quality.</p>
+      </div>
+      <div class="wc fiu">
+        <div class="wi"><i class="fas fa-chart-pie"></i></div>
+        <h3 class="wt">Data Driven</h3>
+        <p class="wd">Every decision backed by real analytics. We track, optimize, and double down on what works.</p>
+      </div>
+      <div class="wc fiu">
+        <div class="wi"><i class="fas fa-handshake"></i></div>
+        <h3 class="wt">Transparent</h3>
+        <p class="wd">Clear communication, honest reporting, zero hidden surprises. You're always in the loop.</p>
+      </div>
+      <div class="wc fiu">
+        <div class="wi"><i class="fas fa-star"></i></div>
+        <h3 class="wt">Premium Quality</h3>
+        <p class="wd">Agency-level output without the agency price tag. Top quality at every budget level.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     RESULTS / GROWTH GRAPH
+===================== -->
+<section id="results">
+  <div class="res-wrap">
+    <div class="res-card fiu" id="resCard">
+      <span class="res-chip">Illustrative Growth Curve</span>
+      <svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="resLineGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="var(--primary)"/>
+            <stop offset="100%" stop-color="var(--accent)"/>
+          </linearGradient>
+          <linearGradient id="resFillGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.28"/>
+            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <line class="res-grid-line" x1="40" y1="70" x2="560" y2="70"/>
+        <line class="res-grid-line" x1="40" y1="140" x2="560" y2="140"/>
+        <line class="res-grid-line" x1="40" y1="210" x2="560" y2="210"/>
+        <line class="res-grid-line" x1="40" y1="260" x2="560" y2="260"/>
+        <path class="res-graph-fill" d="M40,240 C90,230 110,220 140,210 C180,198 200,185 240,175 C280,165 300,155 340,140 C380,125 400,110 440,95 C480,80 500,65 540,50 L540,260 L40,260 Z" fill="url(#resFillGrad)"/>
+        <path class="res-graph-line" pathLength="900" d="M40,240 C90,230 110,220 140,210 C180,198 200,185 240,175 C280,165 300,155 340,140 C380,125 400,110 440,95 C480,80 500,65 540,50" fill="none" stroke="url(#resLineGrad)" stroke-width="4" stroke-linecap="round"/>
+        <circle class="res-dot" cx="40" cy="240" r="6" fill="var(--bg3)" stroke="var(--primary)" stroke-width="3"/>
+        <circle class="res-dot res-dot-fill" cx="240" cy="175" r="6"/>
+        <circle class="res-dot res-dot-fill" cx="440" cy="95" r="6"/>
+        <circle class="res-dot res-dot-fill" cx="540" cy="50" r="7"/>
+        <rect class="res-dot" x="452" y="10" width="128" height="46" rx="10" fill="var(--primary)"/>
+        <text class="res-dot res-callout-text" x="516" y="30" text-anchor="middle">+248%</text>
+        <text class="res-dot res-callout-sub" x="516" y="45" text-anchor="middle">ENGAGEMENT</text>
+        <text class="res-axis-text" x="40" y="285">M1</text>
+        <text class="res-axis-text" x="138" y="285">M2</text>
+        <text class="res-axis-text" x="238" y="285">M3</text>
+        <text class="res-axis-text" x="338" y="285">M4</text>
+        <text class="res-axis-text" x="438" y="285">M5</text>
+        <text class="res-axis-text" x="530" y="285">M6</text>
+      </svg>
+    </div>
+    <div class="fiu">
+      <span class="sec-label">Real Strategy, Real Numbers</span>
+      <h2 class="sec-title">Growth You Can<br>Actually See</h2>
+      <p class="sec-sub" style="margin-bottom:36px">This is the kind of trajectory a focused content + ads strategy builds over 6 months. Your dashboard, your numbers — we just make the curve go up.</p>
+      <div class="res-list">
+        <div class="res-item">
+          <span class="res-num">01</span>
+          <div><h4>Baseline Audit</h4><p>We study your current presence, competitors &amp; audience before touching a single post.</p></div>
+        </div>
+        <div class="res-item">
+          <span class="res-num">02</span>
+          <div><h4>Consistent Execution</h4><p>Daily/weekly content &amp; ad cycles run on schedule — no missed weeks, no excuses.</p></div>
+        </div>
+        <div class="res-item">
+          <span class="res-num">03</span>
+          <div><h4>Optimize &amp; Scale</h4><p>Every campaign is tracked weekly and doubled down on where it's working best.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     PORTFOLIO / SAMPLE WORK
+===================== -->
+<section id="portfolio">
+  <div class="sec-hd fiu" style="text-align:center;max-width:700px;margin-left:auto;margin-right:auto">
+    <span class="sec-label">Our Style</span>
+    <h2 class="sec-title">What Your Brand<br>Could Look Like</h2>
+    <p class="sec-sub" style="margin:0 auto">Real client work &amp; the design style we bring to every account. Hover to flip.</p>
+  </div>
+  <div class="pf-grid" id="pfGrid"></div>
+</section>
+
+
+<!-- =====================
+     TESTIMONIALS
+===================== -->
+<section id="testimonials">
+  <div class="sec-hd fiu" style="text-align:center;max-width:700px;margin-left:auto;margin-right:auto">
+    <span class="sec-label">Client Love</span>
+    <h2 class="sec-title">What Our Clients Say</h2>
+    <p class="sec-sub" style="margin:0 auto">Real businesses, real growth — here's what it's been like working with us.</p>
+  </div>
+  <div class="tm-grid">
+    <div class="tm-card fiu">
+      <div class="tm-stars">★★★★★</div>
+      <p class="tm-txt">"Before ScaleFlux, our clinic barely had an online presence. Within a couple of months our Instagram started actually bringing in patient enquiries, and our Google listing finally looks as professional as our clinic. Genuinely happy with the results."</p>
+      <div class="tm-who">
+        <div class="tm-avatar"><img src="client-1.jpg" alt="Soumya Chaudhari" onerror="this.remove()">SC</div>
+        <div><h5>Soumya Chaudhari</h5><span>Dental Universe</span></div>
+      </div>
+    </div>
+    <div class="tm-card fiu">
+      <div class="tm-stars">★★★★★</div>
+      <p class="tm-txt">"The reels they made for our gym completely changed our membership inflow. People walk in now saying they saw us on Instagram. The team understood fitness content way better than anyone we'd worked with before."</p>
+      <div class="tm-who">
+        <div class="tm-avatar"><img src="client-2.jpg" alt="Pradeep Sharma" onerror="this.remove()">PS</div>
+        <div><h5>Pradeep Sharma</h5><span>OPS Fitness Gym</span></div>
+      </div>
+    </div>
+    <div class="tm-card fiu">
+      <div class="tm-stars">★★★★★</div>
+      <p class="tm-txt">"Our weekend footfall has visibly gone up since ScaleFlux took over our social media and local promotions. The food photography and offers they post actually get people through the door, not just likes on a screen."</p>
+      <div class="tm-who">
+        <div class="tm-avatar"><img src="client-3.jpg" alt="Shubham Singh" onerror="this.remove()">SS</div>
+        <div><h5>Shubham Singh</h5><span>Apni Haveli Restaurant</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     BLOG / INSIGHTS
+===================== -->
+<section id="blog">
+  <div class="sec-hd fiu" style="text-align:center;max-width:700px;margin-left:auto;margin-right:auto">
+    <span class="sec-label">Free Insights</span>
+    <h2 class="sec-title">Grow Smarter With<br>Our Guides</h2>
+    <p class="sec-sub" style="margin:0 auto">Practical digital marketing advice for Indian businesses — no fluff, just what works.</p>
+  </div>
+  <div class="blog-grid" id="blogGrid"></div>
+</section>
+
+<div class="bl-modal-bg" id="blModalBg">
+  <div class="bl-modal">
+    <button class="bl-modal-close" id="blModalClose">✕</button>
+    <div class="bl-cat" id="blModalCat"></div>
+    <h2 id="blModalTitle"></h2>
+    <div class="bl-modal-content" id="blModalContent"></div>
+  </div>
+</div>
+
+<!-- =====================
+     CONTACT
+===================== -->
+<section id="contact">
+  <div class="ct-wrap">
+    <div class="fiu">
+      <span class="sec-label">Get In Touch</span>
+      <h2 class="sec-title">Ready to Grow?<br>Let's Talk.</h2>
+      <p class="sec-sub" style="margin-bottom:40px">Reach out through any channel — we respond fast and we're ready to help you scale.</p>
+      <div class="ct-info">
+        <div class="ci">
+          <div class="ci-icon"><i class="fas fa-phone"></i></div>
+          <div class="ci-d">
+            <h4>Phone / WhatsApp</h4>
+            <a href="tel:+919760801196">+91 97608 01196</a>
+          </div>
+        </div>
+        <div class="ci">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div class="ci-d">
+            <h4>Email</h4>
+            <a href="mailto:scalefluxmedia@gmail.com">scalefluxmedia@gmail.com</a>
+          </div>
+        </div>
+        <div class="ci">
+          <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="ci-d">
+            <h4>Office</h4>
+            <p>22/2, Gali No. 2, Tulsi Colony,<br>Kanker Khera, Arya Nagar, Meerut,<br>Uttar Pradesh — 250001</p>
+          </div>
+        </div>
+        <div class="ci">
+          <div class="ci-icon"><i class="fab fa-google"></i></div>
+          <div class="ci-d">
+            <h4>Google My Business</h4>
+            <a href="https://maps.app.goo.gl/jePEdHXFSd8FiAMDA?g_st=ac" target="_blank">Find us on Google Maps ↗</a>
+          </div>
+        </div>
+        <div class="soc">
+          <a href="https://www.instagram.com/scaleflux_media" target="_blank" class="sb" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61590995050621" target="_blank" class="sb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/ScaleFlux_Media" target="_blank" class="sb" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/@ScaleFlux_Media" target="_blank" class="sb" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/919760801196" target="_blank" class="sb" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://maps.app.goo.gl/jePEdHXFSd8FiAMDA?g_st=ac" target="_blank" class="sb" title="GMB"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cf fiu">
+      <h3>Send Us a Message</h3>
+      <div class="fr">
+        <div class="fg">
+          <label>Your Name</label>
+          <input type="text" id="fn" placeholder="Rahul Sharma">
+        </div>
+        <div class="fg">
+          <label>Phone Number</label>
+          <input type="tel" id="fp" placeholder="+91 98765 43210">
+        </div>
+      </div>
+      <div class="fg">
+        <label>Email Address</label>
+        <input type="email" id="fe" placeholder="you@example.com">
+      </div>
+      <div class="fg">
+        <label>Service You Need</label>
+        <select id="fs">
+          <option value="">Select a service...</option>
+          <option>Social Media Management</option>
+          <option>Paid Advertising (Meta / Google)</option>
+          <option>Reels &amp; Video Content</option>
+          <option>Content Creation</option>
+          <option>SEO &amp; Google My Business</option>
+          <option>Brand Identity &amp; Design</option>
+          <option>Full Growth Package</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label>Message</label>
+        <textarea id="fm" placeholder="Tell us about your business and goals..."></textarea>
+      </div>
+      <button class="fsub" onclick="sendMsg()">
+        <i class="fas fa-paper-plane"></i> &nbsp;Send Message
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+     FOOTER
+===================== -->
+<footer>
+  <div class="ft-inner">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <div class="ft-logo-row">
+          <img id="ft-logo" src="logo-dark-icon.png" alt="ScaleFlux Media icon">
+          <div class="brand-text">
+            <span class="bt-main">Scale<span class="bt-accent">Flux</span></span>
+            <span class="bt-sub">MEDIA</span>
+          </div>
+        </div>
+        <p>Your trusted digital marketing partner for businesses across India. We help businesses grow online through strategy, creativity &amp; execution.</p>
+        <div class="soc">
+          <a href="https://www.instagram.com/scaleflux_media" target="_blank" class="sb" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61590995050621" target="_blank" class="sb" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/ScaleFlux_Media" target="_blank" class="sb" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/@ScaleFlux_Media" target="_blank" class="sb" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/919760801196" target="_blank" class="sb" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="ft-col">
+        <h4>Quick Links</h4>
+        <ul class="ft-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#portfolio">Our Work</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h4>Services</h4>
+        <ul class="ft-links">
+          <li><a href="#services">Social Media</a></li>
+          <li><a href="#services">Paid Ads</a></li>
+          <li><a href="#services">Video & Reels</a></li>
+          <li><a href="#services">SEO & GMB</a></li>
+          <li><a href="#services">Branding</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2025 ScaleFlux Media. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/919760801196" class="wa-fab" target="_blank" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- =====================
+     JAVASCRIPT
+===================== -->
+<script>
+/* ---- THEME TOGGLE ---- */
+const html  = document.documentElement;
+const logos = ['nav-logo','about-logo','ft-logo'];
+
+function applyTheme(t){
+  html.setAttribute('data-theme', t);
+  localStorage.setItem('sfm-theme', t);
+  document.getElementById('tIcon').textContent = t === 'dark' ? '🌙' : '☀️';
+  logos.forEach(id => {
+    const el = document.getElementById(id);
+    if(el) el.src = t === 'dark' ? 'logo-dark-icon.png' : 'logo-light-icon.png';
+  });
+}
+document.getElementById('themeBtn').addEventListener('click', () => {
+  applyTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+});
+applyTheme(localStorage.getItem('sfm-theme') || 'dark');
+
+/* ---- MOBILE MENU ---- */
+const burgerEl  = document.getElementById('burger');
+const mobMenuEl = document.getElementById('mobMenu');
+burgerEl.addEventListener('click', () => {
+  const isOpen = mobMenuEl.classList.toggle('open');
+  burgerEl.classList.toggle('active', isOpen);
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+document.getElementById('mobClose').addEventListener('click', closeMob);
+function closeMob(){
+  mobMenuEl.classList.remove('open');
+  burgerEl.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+/* ---- SCROLL ANIMATIONS ---- */
+const io = new IntersectionObserver(entries => {
+  entries.forEach((e, i) => {
+    if(e.isIntersecting) setTimeout(() => e.target.classList.add('vis'), i * 90);
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fiu').forEach(el => io.observe(el));
+
+/* ---- NAVBAR SHRINK ---- */
+window.addEventListener('scroll', () => {
+  const n = document.getElementById('nav');
+  const shrink = window.scrollY > 60;
+  n.style.padding = shrink ? '10px 5%' : '';
+  n.style.boxShadow = shrink ? '0 4px 32px rgba(0,0,0,.25)' : '';
+  n.classList.toggle('shrink', shrink);
+});
+
+/* ---- PARTICLE CANVAS ---- */
+const cv = document.getElementById('pcv');
+const cx = cv.getContext('2d');
+let pts = [];
+
+function resize(){cv.width=innerWidth;cv.height=innerHeight;}
+resize(); window.addEventListener('resize', resize);
+
+class P {
+  constructor(){this.reset()}
+  reset(){
+    this.x=Math.random()*cv.width;
+    this.y=Math.random()*cv.height;
+    this.r=Math.random()*2.2+.6;
+    this.vx=(Math.random()-.5)*.45;
+    this.vy=(Math.random()-.5)*.45;
+    this.a=Math.random()*.6+.15;
+    this.col=Math.random()>.5?'0,87,255':'0,170,255';
+  }
+  step(){
+    this.x+=this.vx; this.y+=this.vy;
+    if(this.x<0||this.x>cv.width||this.y<0||this.y>cv.height) this.reset();
+  }
+  draw(){
+    cx.beginPath();
+    cx.arc(this.x,this.y,this.r,0,Math.PI*2);
+    cx.fillStyle=`rgba(${this.col},${this.a})`;
+    cx.fill();
+  }
+}
+for(let i=0;i<110;i++) pts.push(new P());
+
+/* Floating marketing icon particles — continuous looping background motion */
+const marketingIconTypes = ['heart','chart','play','megaphone','camera','pin','like','target'];
+function drawMarketingIcon(type, s, col, a){
+  cx.strokeStyle = `rgba(${col},${a})`;
+  cx.fillStyle = `rgba(${col},${a})`;
+  cx.lineWidth = s*0.09;
+  cx.lineJoin = 'round'; cx.lineCap = 'round';
+  switch(type){
+    case 'heart':{
+      const k = s*0.5;
+      cx.beginPath();
+      cx.moveTo(0,k*0.35);
+      cx.bezierCurveTo(-k,-k*0.5, -k*1.3,k*0.55, 0,k*1.2);
+      cx.bezierCurveTo(k*1.3,k*0.55, k,-k*0.5, 0,k*0.35);
+      cx.fill();
+      break;
+    }
+    case 'chart':{
+      const w = s*0.26, g = s*0.1;
+      cx.fillRect(-w*1.5-g, s*0.05, w, s*0.55);
+      cx.fillRect(-w*0.5, -s*0.15, w, s*0.75);
+      cx.fillRect(w*0.5+g, -s*0.4, w, s);
+      break;
+    }
+    case 'play':{
+      const r = s*0.55;
+      cx.beginPath(); cx.arc(0,0,r,0,Math.PI*2); cx.stroke();
+      cx.beginPath();
+      cx.moveTo(-r*0.28,-r*0.4); cx.lineTo(r*0.5,0); cx.lineTo(-r*0.28,r*0.4);
+      cx.closePath(); cx.fill();
+      break;
+    }
+    case 'megaphone':{
+      cx.beginPath();
+      cx.moveTo(-s*0.5,-s*0.18); cx.lineTo(-s*0.1,-s*0.4);
+      cx.lineTo(-s*0.1,s*0.4); cx.lineTo(-s*0.5,s*0.18);
+      cx.closePath(); cx.fill();
+      cx.fillRect(-s*0.58,-s*0.16,s*0.12,s*0.32);
+      cx.beginPath(); cx.arc(-s*0.1,0,s*0.42,-0.65,0.65); cx.stroke();
+      break;
+    }
+    case 'camera':{
+      const w = s*0.9, h = s*0.62;
+      cx.beginPath();
+      cx.roundRect ? cx.roundRect(-w/2,-h/2+s*0.06,w,h,s*0.1) : cx.rect(-w/2,-h/2+s*0.06,w,h);
+      cx.stroke();
+      cx.fillRect(-s*0.16,-h/2-s*0.08,s*0.32,s*0.16);
+      cx.beginPath(); cx.arc(0,s*0.03,s*0.2,0,Math.PI*2); cx.stroke();
+      break;
+    }
+    case 'pin':{
+      const r = s*0.32;
+      cx.beginPath();
+      cx.arc(0,-r*0.2,r,0,Math.PI*2);
+      cx.moveTo(-r*0.75,r*0.35);
+      cx.quadraticCurveTo(0,r*2.1,r*0.75,r*0.35);
+      cx.closePath(); cx.fill();
+      break;
+    }
+    case 'like':{
+      cx.beginPath();
+      cx.moveTo(-s*0.4,-s*0.05);
+      cx.lineTo(-s*0.4,s*0.42);
+      cx.lineTo(-s*0.08,s*0.42);
+      cx.lineTo(-s*0.08,-s*0.05);
+      cx.closePath(); cx.fill();
+      cx.beginPath();
+      cx.moveTo(-s*0.05,-s*0.05);
+      cx.lineTo(s*0.08,-s*0.5);
+      cx.quadraticCurveTo(s*0.3,-s*0.5, s*0.28,-s*0.22);
+      cx.lineTo(s*0.46,-s*0.22);
+      cx.quadraticCurveTo(s*0.58,-s*0.22, s*0.5,s*0.05);
+      cx.lineTo(s*0.34,s*0.42);
+      cx.lineTo(-s*0.05,s*0.42);
+      cx.closePath(); cx.fill();
+      break;
+    }
+    case 'target':{
+      cx.beginPath(); cx.arc(0,0,s*0.5,0,Math.PI*2); cx.stroke();
+      cx.beginPath(); cx.arc(0,0,s*0.28,0,Math.PI*2); cx.stroke();
+      cx.beginPath(); cx.arc(0,0,s*0.08,0,Math.PI*2); cx.fill();
+      break;
+    }
+  }
+}
+class IconP {
+  constructor(){this.reset(true)}
+  reset(fresh){
+    this.x = Math.random()*cv.width;
+    this.y = fresh ? Math.random()*cv.height : cv.height + 40;
+    this.type = marketingIconTypes[Math.floor(Math.random()*marketingIconTypes.length)];
+    this.size = Math.random()*18+24;
+    this.vy = -(Math.random()*.3+.13);
+    this.vx = (Math.random()-.5)*.2;
+    this.rot = (Math.random()-.5)*.3;
+    this.vr = (Math.random()-.5)*.006;
+    this.baseA = Math.random()*.22+.14;
+    this.col = Math.random()>.5 ? '0,170,255' : '0,87,255';
+  }
+  step(){
+    this.x += this.vx; this.y += this.vy; this.rot += this.vr;
+    if(this.y < -40) this.reset(false);
+  }
+  draw(){
+    cx.save();
+    cx.translate(this.x,this.y);
+    cx.rotate(this.rot);
+    drawMarketingIcon(this.type, this.size, this.col, this.baseA);
+    cx.restore();
+  }
+}
+let iconPts = [];
+for(let i=0;i<22;i++) iconPts.push(new IconP());
+
+function drawLines(){
+  for(let i=0;i<pts.length;i++){
+    for(let j=i+1;j<pts.length;j++){
+      const dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y;
+      const d=Math.sqrt(dx*dx+dy*dy);
+      if(d<120){
+        cx.beginPath();
+        cx.moveTo(pts[i].x,pts[i].y);
+        cx.lineTo(pts[j].x,pts[j].y);
+        cx.strokeStyle=`rgba(0,87,255,${.12*(1-d/120)})`;
+        cx.lineWidth=.6; cx.stroke();
+      }
+    }
+  }
+}
+function loop(){
+  cx.clearRect(0,0,cv.width,cv.height);
+  pts.forEach(p=>{p.step();p.draw();});
+  drawLines();
+  iconPts.forEach(p=>{p.step();p.draw();});
+  requestAnimationFrame(loop);
+}
+loop();
+
+/* ---- COUNTER ANIMATION ---- */
+function countUp(el, target, suf){
+  let s=0; const dur=2000;
+  const step=ts=>{
+    if(!s) s=ts;
+    const prog=Math.min((ts-s)/dur,1);
+    el.textContent=Math.floor(prog*target)+suf;
+    if(prog<1) requestAnimationFrame(step);
+    else el.textContent=target+suf;
+  };
+  requestAnimationFrame(step);
+}
+const cio = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.querySelectorAll('.stat-n').forEach(n=>{
+        countUp(n, +n.dataset.t, n.dataset.s);
+      });
+      cio.unobserve(e.target);
+    }
+  });
+},{threshold:.5});
+cio.observe(document.querySelector('.stats-bar'));
+
+/* ---- CONTACT FORM → WHATSAPP ---- */
+function sendMsg(){
+  const n=document.getElementById('fn').value.trim();
+  const p=document.getElementById('fp').value.trim();
+  const e=document.getElementById('fe').value.trim();
+  const s=document.getElementById('fs').value;
+  const m=document.getElementById('fm').value.trim();
+  if(!n||!p){alert('Please enter your name and phone number!');return;}
+  const txt=`Hello ScaleFlux Media! 👋%0A%0A*Name:* ${n}%0A*Phone:* ${p}%0A*Email:* ${e||'—'}%0A*Service:* ${s||'—'}%0A%0A*Message:* ${m||'—'}`;
+  window.open(`https://wa.me/919760801196?text=${txt}`,'_blank');
+}
+
+/* ---- CURSOR EFFECTS (skip entirely on touch devices — prevents stray glow overlay on mobile "desktop mode") ---- */
+const isTouchDevice = window.matchMedia('(hover: none), (pointer: coarse)').matches;
+if(!isTouchDevice){
+  const glow = document.getElementById('cursorGlow');
+  window.addEventListener('mousemove', e=>{
+    glow.style.opacity = 1;
+    glow.style.transform = `translate(${e.clientX}px,${e.clientY}px) translate(-50%,-50%)`;
+  });
+  window.addEventListener('mouseleave', ()=> glow.style.opacity = 0);
+
+  const cDot = document.getElementById('cursorDot');
+  const cRing = document.getElementById('cursorRing');
+  let ringX = 0, ringY = 0, mouseX = 0, mouseY = 0, cursorLive = false;
+  window.addEventListener('mousemove', e=>{
+    mouseX = e.clientX; mouseY = e.clientY;
+    if(!cursorLive){ cursorLive = true; cDot.style.opacity = 1; cRing.style.opacity = 1; ringX = mouseX; ringY = mouseY; }
+    cDot.style.transform = `translate(${mouseX}px,${mouseY}px) translate(-50%,-50%)`;
+  });
+  window.addEventListener('mouseleave', ()=>{ cDot.style.opacity = 0; cRing.style.opacity = 0; cursorLive = false; });
+  (function ringLoop(){
+    ringX += (mouseX - ringX) * 0.18;
+    ringY += (mouseY - ringY) * 0.18;
+    cRing.style.transform = `translate(${ringX}px,${ringY}px) translate(-50%,-50%)`;
+    requestAnimationFrame(ringLoop);
+  })();
+  document.addEventListener('mouseover', e=>{
+    if(e.target.closest('a, button, .pf-card, .tm-card, .bl-card, input, select, textarea, .toggle-track, .burger')) cRing.classList.add('hv');
+  });
+  document.addEventListener('mouseout', e=>{
+    if(e.target.closest('a, button, .pf-card, .tm-card, .bl-card, input, select, textarea, .toggle-track, .burger')) cRing.classList.remove('hv');
+  });
+}
+
+
+
+/* ---- RESULTS GRAPH REVEAL ---- */
+const resIo = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){ e.target.classList.add('vis'); resIo.unobserve(e.target); }
+  });
+},{threshold:.35});
+resIo.observe(document.getElementById('resCard'));
+
+/* ---- PORTFOLIO DATA + RENDER ---- */
+const pfFallbackSvg = {
+  1: `<svg viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pfPhotoGradA" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="var(--primary)"/><stop offset="100%" stop-color="var(--accent)"/>
+      </linearGradient>
+      <linearGradient id="pfAvatarGradA" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="var(--accent)"/><stop offset="100%" stop-color="var(--primary)"/>
+      </linearGradient>
+    </defs>
+    <rect width="300" height="340" fill="var(--bg3)"/>
+    <circle cx="40" cy="40" r="17" fill="url(#pfAvatarGradA)"/>
+    <text x="68" y="37" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="var(--text)">yourbrand</text>
+    <text x="68" y="51" font-family="Inter,sans-serif" font-size="9.5" fill="var(--muted)">Sponsored</text>
+    <rect x="16" y="64" width="268" height="196" rx="14" fill="url(#pfPhotoGradA)"/>
+    <circle cx="235" cy="90" r="60" fill="rgba(255,255,255,.10)"/>
+    <circle cx="70" cy="230" r="46" fill="rgba(0,0,0,.10)"/>
+    <rect x="30" y="78" width="98" height="28" rx="14" fill="rgba(10,15,30,.55)"/>
+    <text x="42" y="97" font-family="'Exo 2',sans-serif" font-size="12.5" font-weight="800" fill="#fff">+64% Reach</text>
+  </svg>`,
+  2: `<svg viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pfPhoneGradA" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--accent)"/><stop offset="55%" stop-color="var(--primary)"/><stop offset="100%" stop-color="#061340"/>
+      </linearGradient>
+    </defs>
+    <rect width="300" height="340" fill="var(--bg3)"/>
+    <rect x="90" y="24" width="120" height="292" rx="20" fill="url(#pfPhoneGradA)"/>
+    <circle cx="150" cy="70" r="42" fill="rgba(255,255,255,.08)"/>
+    <circle cx="150" cy="150" r="26" fill="rgba(10,15,30,.5)"/>
+    <path d="M143,138 L165,150 L143,162 Z" fill="#fff"/>
+  </svg>`,
+  3: `<svg viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pfChartGradA" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="var(--primary)"/><stop offset="100%" stop-color="var(--accent)"/>
+      </linearGradient>
+      <linearGradient id="pfBarGradA" x1="0" y1="1" x2="0" y2="0">
+        <stop offset="0%" stop-color="var(--primary)"/><stop offset="100%" stop-color="var(--accent)"/>
+      </linearGradient>
+    </defs>
+    <rect width="300" height="340" fill="var(--bg3)"/>
+    <text x="24" y="38" font-family="'Exo 2',sans-serif" font-size="14" font-weight="800" fill="var(--text)">Campaign Performance</text>
+    <rect x="24" y="60" width="252" height="62" rx="12" fill="url(#pfChartGradA)"/>
+    <text x="42" y="99" font-family="'Exo 2',sans-serif" font-size="26" font-weight="900" fill="#fff">+3.4x ROAS</text>
+    <g transform="translate(24,138)">
+      <rect x="0" y="56" width="28" height="30" rx="5" fill="var(--muted)" opacity=".3"/>
+      <rect x="40" y="40" width="28" height="46" rx="5" fill="var(--muted)" opacity=".45"/>
+      <rect x="80" y="24" width="28" height="62" rx="5" fill="url(#pfBarGradA)"/>
+      <rect x="120" y="4" width="28" height="82" rx="5" fill="url(#pfBarGradA)"/>
+    </g>
+  </svg>`
+};
+
+const portfolioItems = [
+  {
+    tag:'Feed Design', title:'Real Client Creative',
+    desc:'Branded promotional post designed and posted for a client on Instagram & Facebook.',
+    img:'portfolio-1.png',
+    stat:'+64% Reach', statDesc:'Average increase in profile reach after posting branded creatives like this one.'
+  },
+  {
+    tag:'Social Media Growth', title:'Multi-Platform Presence',
+    desc:'Consistent, professional presence built across Instagram, Facebook &amp; LinkedIn together.',
+    img:'portfolio-2.png',
+    stat:'3+ Platforms', statDesc:'Managed together under one strategy for a consistent brand voice and steady leads.'
+  },
+  {
+    tag:'Ad Campaign', title:'Performance Ads',
+    desc:'Meta &amp; Google campaigns built around one goal: profitable return on spend.',
+    img:'portfolio-3.png',
+    stat:'+3.4x ROAS', statDesc:'Average return on ad spend across active search &amp; social campaigns.'
+  }
+];
+
+const pfGrid = document.getElementById('pfGrid');
+portfolioItems.forEach((item, idx)=>{
+  const card = document.createElement('div');
+  card.className = 'pf-card fiu';
+  card.innerHTML = `
+    <div class="pf-flip">
+      <div class="pf-face pf-front">
+        <div class="pf-media" id="pfMedia${idx}">
+          <img src="${item.img}" alt="${item.title}" loading="lazy">
+        </div>
+        <div class="pf-body">
+          <div class="pf-tag">${item.tag}</div>
+          <h4>${item.title}</h4>
+        </div>
+      </div>
+      <div class="pf-face pf-back">
+        <div class="pf-stat">${item.stat}</div>
+        <p>${item.statDesc}</p>
+        <span class="pf-flip-hint"><i class="fas fa-arrows-rotate"></i> ${item.desc}</span>
+      </div>
+    </div>`;
+  pfGrid.appendChild(card);
+  io.observe(card);
+  card.addEventListener('click', ()=> card.classList.toggle('flipped'));
+
+  const imgEl = card.querySelector('img');
+  const mediaEl = card.querySelector(`#pfMedia${idx}`);
+  imgEl.addEventListener('error', ()=>{
+    imgEl.remove();
+    mediaEl.insertAdjacentHTML('afterbegin', pfFallbackSvg[idx+1]);
+  });
+});
+
+
+const blogIcons = {
+  'Local SEO':'fa-map-location-dot',
+  'Social Media':'fa-instagram',
+  'Paid Ads':'fa-bullseye',
+  'Growth':'fa-chart-line',
+  'Content Strategy':'fa-calendar-days',
+  'Branding':'fa-palette'
+};
+const blogPosts = [
+  {
+    cat:'Local SEO',
+    img:'blog-1.png',
+    title:'Why Every Local Business Needs Google My Business Optimization',
+    excerpt:'Most local customers check Google before they check anything else. Here\'s how to make sure they find you first — not your competitor.',
+    body:`<p>When someone searches for "best salon near me" or "restaurant in [their neighbourhood]," Google doesn't show a list of websites first — it shows a map with business listings. If your Google Business Profile isn't set up properly, you're invisible in that exact moment a customer is ready to buy.</p>
+    <h3>What actually moves the needle</h3>
+    <ul>
+      <li>Complete every field — category, hours, service area, phone, and a real address.</li>
+      <li>Add fresh photos every week, not just once at setup.</li>
+      <li>Reply to every review, good or bad, within 24-48 hours.</li>
+      <li>Use Google Posts to share offers, new arrivals, or events.</li>
+      <li>Keep your business hours accurate, especially around festivals and holidays.</li>
+    </ul>
+    <p>Reviews matter more than most business owners realise. A profile with 40 genuine reviews and a 4.6 rating will consistently outrank a profile with 5 reviews and no recent activity — even if the second business has a nicer website.</p>
+    <h3>The compounding effect</h3>
+    <p>Local SEO isn't a one-time task. Profiles that post regularly and respond to customers get pushed higher by Google's algorithm over time. The businesses that treat it as an ongoing habit — not a checkbox — are the ones dominating the map pack a year later.</p>`
+  },
+  {
+    cat:'Social Media',
+    img:'blog-2.png',
+    title:'Instagram Reels Strategy for Local Businesses: A Complete Guide',
+    excerpt:'Reels are still the single biggest lever for reach in 2026. Here\'s a simple framework any local business can follow.',
+    body:`<p>Reels get pushed to non-followers far more than static posts. For a local business, that means one good Reel can put your brand in front of thousands of potential customers in your own city — for free.</p>
+    <h3>The 3-second rule</h3>
+    <p>If your first 3 seconds don't stop the scroll, nothing else in the video matters. Open with a bold visual, a question, or a surprising result — never a slow intro or your logo.</p>
+    <h3>What to actually film</h3>
+    <ul>
+      <li>Behind-the-scenes of how your product/service is made or delivered</li>
+      <li>Before-and-after transformations (salons, gyms, home services)</li>
+      <li>Quick tips your audience can use immediately</li>
+      <li>Customer reactions and genuine testimonials</li>
+      <li>Trending audio paired with your own footage — not stock clips</li>
+    </ul>
+    <h3>Consistency beats perfection</h3>
+    <p>Three simple Reels a week filmed on a phone will outperform one "perfect" produced video a month. The algorithm rewards accounts that post consistently because it gives Instagram more data to understand who to show your content to.</p>`
+  },
+  {
+    cat:'Paid Ads',
+    img:'blog-3.jpg',
+    title:'Meta Ads vs Google Ads: Which One Should Your Business Choose?',
+    excerpt:'Both work — but for very different reasons. Picking the wrong one first is the most common way businesses waste ad budget.',
+    body:`<p>The short answer: Google Ads captures demand that already exists. Meta Ads (Facebook & Instagram) creates demand that doesn't exist yet. Most local businesses need both eventually, but the order matters.</p>
+    <h3>Choose Google Ads first if...</h3>
+    <ul>
+      <li>People already search for what you sell (plumbers, dentists, lawyers, repair services)</li>
+      <li>You want leads who are ready to buy right now</li>
+      <li>Your service has a clear, searchable problem attached to it</li>
+    </ul>
+    <h3>Choose Meta Ads first if...</h3>
+    <ul>
+      <li>You're selling something visual — food, fashion, interiors, beauty</li>
+      <li>Your brand needs to build awareness before people search for it</li>
+      <li>You have (or can create) strong photo/video content</li>
+    </ul>
+    <h3>The real answer</h3>
+    <p>Once a business has consistent Meta content building brand recall, Google Ads becomes far more efficient — because people search your brand name directly instead of generic terms, which is always cheaper per click. Start where your customer's buying journey naturally begins.</p>`
+  },
+  {
+    cat:'Growth',
+    img:'blog-4.png',
+    title:'5 Signs Your Business Is Ready to Hire a Digital Marketing Agency',
+    excerpt:'DIY marketing works — until it doesn\'t. Here\'s how to know when it\'s time to bring in a dedicated team.',
+    body:`<p>Every business starts by managing its own social media and ads. That's normal. But there's a point where doing it yourself starts costing you more than hiring help would.</p>
+    <h3>The signs</h3>
+    <ul>
+      <li><strong>You're posting inconsistently.</strong> Weeks go by with no content because you're busy running the business.</li>
+      <li><strong>Engagement has plateaued.</strong> Same followers, same likes, no real growth in 3+ months.</li>
+      <li><strong>You've tried ads but don't understand the results.</strong> Money is spent, but you can't explain what worked.</li>
+      <li><strong>Competitors look more professional online</strong> even though your product/service is better.</li>
+      <li><strong>You know marketing matters but have zero time for it.</strong> Every hour spent on content is an hour not spent serving customers.</li>
+    </ul>
+    <h3>What changes with a dedicated team</h3>
+    <p>The biggest shift isn't just "more content" — it's strategy. A dedicated team tracks what's actually converting into customers, not just what gets likes, and adjusts weekly instead of guessing month to month.</p>`
+  },
+  {
+    cat:'Social Media',
+    img:'blog-5.jpg',
+    title:'How to Turn Instagram Followers Into Paying Customers',
+    excerpt:'Followers don\'t pay your bills — customers do. Here\'s the bridge most businesses are missing.',
+    body:`<p>A common frustration: "We have 5,000 followers but almost no sales." This usually isn't a content problem — it's a conversion path problem.</p>
+    <h3>Fix the profile first</h3>
+    <ul>
+      <li>Your bio should say exactly what you sell and where you're located</li>
+      <li>The link in bio should go somewhere specific — not just your homepage</li>
+      <li>Highlights should answer common questions: pricing, location, how to order</li>
+    </ul>
+    <h3>Make buying easy, not just possible</h3>
+    <p>If a customer has to DM you, wait hours for a reply, then figure out payment separately, most will drop off. Quick-reply templates, a WhatsApp catalog link, or a simple order form can cut that friction dramatically.</p>
+    <h3>Retarget your warm audience</h3>
+    <p>People who watched your Reels or visited your profile but didn't buy are your easiest ad audience — they already know you. A small retargeting budget aimed at this group typically converts far better than cold audience ads.</p>`
+  },
+  {
+    cat:'Local SEO',
+    img:'blog-6.jpg',
+    title:'Local SEO Checklist: Get Found by Customers Near You',
+    excerpt:'A practical, no-jargon checklist any local business owner can run through this weekend.',
+    body:`<p>Local SEO sounds technical, but most of it is common sense executed consistently. Here's the checklist we run for every new client.</p>
+    <h3>On Google</h3>
+    <ul>
+      <li>Claim and verify your Google Business Profile</li>
+      <li>Match your business name, address & phone exactly everywhere online (NAP consistency)</li>
+      <li>Get listed on Justdial, Sulekha, and relevant local directories</li>
+      <li>Collect reviews actively — ask happy customers directly, don't just hope</li>
+    </ul>
+    <h3>On your website</h3>
+    <ul>
+      <li>Mention your city/area naturally in page titles and headings</li>
+      <li>Add a Google Map embed on your contact page</li>
+      <li>Make sure the site loads fast on mobile — most local searches happen on phones</li>
+    </ul>
+    <h3>Ongoing habits</h3>
+    <p>Local SEO rewards activity. Businesses that post updates, respond to reviews, and add photos monthly consistently rank above businesses that set everything up once and forget about it.</p>`
+  },
+  {
+    cat:'Content Strategy',
+    img:'blog-7.jpg',
+    title:'Why a Content Calendar Is the Secret to Consistent Brand Growth',
+    excerpt:'The businesses that grow fastest online aren\'t the most creative — they\'re the most consistent.',
+    body:`<p>Inspiration is unreliable. A content calendar removes the daily "what do I post today?" decision and replaces it with a system.</p>
+    <h3>A simple weekly structure that works</h3>
+    <ul>
+      <li><strong>Monday:</strong> Educational/tip-based post</li>
+      <li><strong>Wednesday:</strong> Behind-the-scenes or process content</li>
+      <li><strong>Friday:</strong> Product/service highlight or offer</li>
+      <li><strong>Sunday:</strong> Community/engagement post (poll, question, UGC repost)</li>
+    </ul>
+    <h3>Batch, don't scramble</h3>
+    <p>Filming or designing a week's worth of content in one sitting is faster and more consistent than trying to create something new every single day. Most businesses that "don't have time" for content actually just don't have a batching system.</p>
+    <h3>Plan around your business calendar</h3>
+    <p>Festivals, local events, and seasonal demand should be planned weeks ahead — not the night before. A content calendar makes sure you never miss a Diwali, wedding season, or back-to-school window again.</p>`
+  },
+  {
+    cat:'Branding',
+    img:'blog-8.png',
+    title:'The Real Cost of a DIY Logo (And Why Branding Matters)',
+    excerpt:'A logo made in five minutes on a free app might be costing you customers you never even see.',
+    body:`<p>First impressions form in under a second. Before a customer reads a single word about your business, they've already made a judgment based on how it looks.</p>
+    <h3>What a weak brand actually costs you</h3>
+    <ul>
+      <li>Customers assume lower quality, even if your product/service is excellent</li>
+      <li>You blend in with dozens of competitors who look identical</li>
+      <li>Referrals slow down — people are less likely to recommend a brand that doesn't feel established</li>
+      <li>Every future ad, poster, and post looks less effective without a consistent visual identity</li>
+    </ul>
+    <h3>Branding isn't just a logo</h3>
+    <p>A real brand identity includes consistent colors, fonts, tone of voice, and imagery style across your Instagram, website, packaging, and signage. That consistency is what makes a business feel trustworthy and "bigger" than it is — regardless of actual size.</p>
+    <h3>The return on investment</h3>
+    <p>Businesses that invest in proper branding early typically spend less on convincing customers to trust them, because the visual identity does part of that job automatically.</p>`
+  }
+];
+
+const blogGrid = document.getElementById('blogGrid');
+blogPosts.forEach((post, idx)=>{
+  const icon = blogIcons[post.cat] || 'fa-newspaper';
+  const card = document.createElement('div');
+  card.className = 'bl-card fiu';
+  card.innerHTML = `
+    <div class="bl-cover" id="blCover${idx}">
+      ${post.img ? `<img src="${post.img}" alt="${post.title}" loading="lazy">` : ''}
+      <div class="bl-cover-shade"></div>
+      <i class="fas ${icon}" style="position:absolute;top:14px;left:14px;font-size:14px;color:#fff;background:rgba(0,0,0,.35);width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center"></i>
+      <span style="position:absolute;bottom:12px;right:14px;font-family:'Exo 2',sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.85)">ScaleFlux Insights</span>
+    </div>
+    <div class="bl-body">
+      <div class="bl-cat">${post.cat}</div>
+      <h4>${post.title}</h4>
+      <p>${post.excerpt}</p>
+      <span class="bl-read">Read Article <i class="fas fa-arrow-right"></i></span>
+    </div>`;
+  card.addEventListener('click', ()=> openBlog(idx));
+  blogGrid.appendChild(card);
+  io.observe(card);
+
+  const imgEl = card.querySelector('img');
+  const coverEl = card.querySelector(`#blCover${idx}`);
+  if(imgEl){
+    imgEl.addEventListener('error', ()=>{
+      imgEl.remove();
+      coverEl.insertAdjacentHTML('afterbegin', `
+        <svg viewBox="0 0 300 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="blGrad${idx}" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="var(--primary)"/><stop offset="100%" stop-color="var(--accent)"/>
+            </linearGradient>
+            <pattern id="blDots${idx}" width="16" height="16" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.16)"/>
+            </pattern>
+          </defs>
+          <rect width="300" height="150" fill="url(#blGrad${idx})"/>
+          <rect width="300" height="150" fill="url(#blDots${idx})"/>
+          <circle cx="250" cy="20" r="70" fill="rgba(255,255,255,.07)"/>
+          <circle cx="20" cy="150" r="50" fill="rgba(0,0,0,.10)"/>
+          <path d="M0,110 C60,90 100,130 170,105 C220,88 260,115 300,95 L300,150 L0,150 Z" fill="rgba(0,0,0,.12)"/>
+          <circle cx="46" cy="75" r="30" fill="rgba(255,255,255,.16)"/>
+          <circle cx="46" cy="75" r="30" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1.5"/>
+        </svg>`);
+    });
+  } else {
+    coverEl.insertAdjacentHTML('afterbegin', `
+      <svg viewBox="0 0 300 150" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="blGrad${idx}" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="var(--primary)"/><stop offset="100%" stop-color="var(--accent)"/>
+          </linearGradient>
+          <pattern id="blDots${idx}" width="16" height="16" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.16)"/>
+          </pattern>
+        </defs>
+        <rect width="300" height="150" fill="url(#blGrad${idx})"/>
+        <rect width="300" height="150" fill="url(#blDots${idx})"/>
+        <circle cx="250" cy="20" r="70" fill="rgba(255,255,255,.07)"/>
+        <circle cx="20" cy="150" r="50" fill="rgba(0,0,0,.10)"/>
+        <path d="M0,110 C60,90 100,130 170,105 C220,88 260,115 300,95 L300,150 L0,150 Z" fill="rgba(0,0,0,.12)"/>
+        <circle cx="46" cy="75" r="30" fill="rgba(255,255,255,.16)"/>
+        <circle cx="46" cy="75" r="30" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1.5"/>
+      </svg>`);
+  }
+});
+
+const blModalBg = document.getElementById('blModalBg');
+function openBlog(idx){
+  const post = blogPosts[idx];
+  document.getElementById('blModalCat').textContent = post.cat;
+  document.getElementById('blModalTitle').textContent = post.title;
+  document.getElementById('blModalContent').innerHTML = post.body;
+  blModalBg.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeBlog(){
+  blModalBg.classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.getElementById('blModalClose').addEventListener('click', closeBlog);
+blModalBg.addEventListener('click', e=>{ if(e.target === blModalBg) closeBlog(); });
+</script>
+</body>
+</html>
